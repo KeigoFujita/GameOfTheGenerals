@@ -17,7 +17,7 @@ public class Main extends Application {
 
         Parent root = fxmlLoader.load();
         Controller controller = fxmlLoader.getController();
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Game Of The Generals");
         scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.setResizable(false);
